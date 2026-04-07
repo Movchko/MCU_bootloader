@@ -1,0 +1,5 @@
+../Core/Src/Boot.c:9:10:GetAppSize	5
+../Core/Src/Boot.c:20:6:SetDefaultBoot	4
+../Core/Src/Boot.c:38:6:BootProcess	29
+../Core/Src/Boot.c:204:10:crc32	2
+../Core/Src/Boot.c:216:10:Image_crc32	2

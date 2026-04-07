@@ -1,0 +1,15 @@
+../Drivers/CMSIS/Include/core_cm33.h:2711:34:__NVIC_SystemReset	1
+../Core/Src/boot_app.c:14:10:ReadBootWatchDog	1
+../Core/Src/boot_app.c:21:6:WriteBootWatchDog	1
+../Core/Src/boot_app.c:32:10:ReadProgramWatchDog	1
+../Core/Src/boot_app.c:39:6:EraseCfg	1
+../Core/Src/boot_app.c:44:10:GetMainCodeAdr	1
+../Core/Src/boot_app.c:48:10:GetUpdateCodeAdr	1
+../Core/Src/boot_app.c:52:10:GetDefaultCodeAdr	1
+../Core/Src/boot_app.c:56:9:EraseApp	7
+../Core/Src/boot_app.c:98:9:SetApp	5
+../Core/Src/boot_app.c:127:6:ResetMCU	0
+../Core/Src/boot_app.c:131:10:GetWord	5
+../Core/Src/boot_app.c:156:9:GetByte	5
+../Core/Src/boot_app.c:181:9:SetWord	9
+../Core/Src/boot_app.c:219:6:CallApplication	2

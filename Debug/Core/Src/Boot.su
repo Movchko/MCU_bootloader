@@ -1,0 +1,5 @@
+../Core/Src/Boot.c:9:10:GetAppSize	24	static
+../Core/Src/Boot.c:20:6:SetDefaultBoot	88	static
+../Core/Src/Boot.c:38:6:BootProcess	96	static
+../Core/Src/Boot.c:204:10:crc32	32	static
+../Core/Src/Boot.c:216:10:Image_crc32	24	static
