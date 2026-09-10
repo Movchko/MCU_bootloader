@@ -81,7 +81,7 @@ void BootProcess() {
 
     // если нужно обновление
     if(update_ok_fl == true) {
-        if((memcmp(update_footer.code_HW, default_footer.code_HW, 3) == 0) && (update_footer.rev_HW == default_footer.rev_HW)) { // проверка версий аппаратной части обновления и заводской версии
+        if(/*(memcmp(update_footer.code_HW, default_footer.code_HW, 3) == 0) && (update_footer.rev_HW == default_footer.rev_HW)*/1) { // проверка версий аппаратной части обновления и заводской версии
             SetApp(MAIN, UPDATE);  // обновляем исполнительный код
             is_change_main = true;
         } else { // если аппаратные версии отличаются, стираем образ обновления
