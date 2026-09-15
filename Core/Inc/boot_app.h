@@ -8,6 +8,9 @@
 #ifndef INC_BOOT_APP_H_
 #define INC_BOOT_APP_H_
 
+/* Версия бутлоадера МКУ. Имя файла при сборке прошивок: MCU_bootloader_vN.bin */
+#define BOOTLOADER_VERSION_U32 1u
+
 #define BOOTLOADER_SIZE 0x8000 // 32kb - 4 sectora
 #define START_SECTOR 6 // стартовый сектор главного приложения
 #define APP_SIZE_IN_SECTRORS 18
